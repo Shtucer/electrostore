@@ -1,0 +1,51 @@
+
+electrostore=D:/Projects/python/electronics.shtucer.ru/electrostore CD=. filter="*.py *.html *.css *.js" {
+ manage.py
+ electrostore=electrostore {
+  settings.py
+  urls.py
+  wsgi.py
+  __init__.py
+ }
+ projects=projects {
+  urls.py
+  admin.py
+  models.py
+  tests.py
+  views.py
+  __init__.py
+  migrations=migrations {
+   __init__.py
+  }
+ }
+ store=store {
+  urls.py
+  admin.py
+  models.py
+  tests.py
+  views.py
+  __init__.py
+  migrations=migrations {
+   __init__.py
+  }
+ }
+}
+
+templates=d:/Projects/python/electronics.shtucer.ru/electrostore/templates filter="*.html *.js *.css" {
+ base.html
+  store=../store/templates/store {
+  index.html
+  }
+}
+
+ static=d:/Projects/python/electronics.shtucer.ru/electrostore/static CD=. {
+  css=css {
+
+   style.css
+  }
+  js=js {
+
+  }
+ }
+
+
